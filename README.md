@@ -3,7 +3,7 @@
 ## TODO
 - [x] Make it deploy
 - [x] Scaffold basic ui with mock data
-- [ ] Tidy up build process
+- [x] Tidy up build process
 - [ ] Actually setup a database
 - [ ] Attach database to UI
 - [ ] Add authentication
