@@ -7,7 +7,7 @@
 - [x] Actually setup a database
 - [x] Attach database to UI
 - [x] Add authentication
-- [ ] Add image upload
+- [x] Add image upload
 - [ ] "taint" (server-only)
 - [ ] use Next/Image component
 - [ ] Error management
