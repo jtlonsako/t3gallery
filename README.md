@@ -14,6 +14,6 @@
 - [x] Error management
 - [x] Routing/image page (parallel route)
 - [x] Delete button (w/ Server Actions)
-- [ ] ShaduiIfy
+- [x] ShaduiIfy
 - [ ] Analytics
 - [ ] Ratelimiting
