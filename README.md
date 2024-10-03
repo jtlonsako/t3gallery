@@ -16,5 +16,5 @@
 - [x] Cleanup upload button
 - [ ] Delete button (w/ Server Actions)
 - [x] ShaduiIfy
-- [ ] Analytics
+- [x] Analytics
 - [ ] Ratelimiting
