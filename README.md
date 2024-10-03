@@ -1,6 +1,7 @@
 # T3 Gallery
 
 ## TODO
+
 - [x] Make it deploy
 - [x] Scaffold basic ui with mock data
 - [x] Tidy up build process
@@ -10,7 +11,7 @@
 - [x] Add image upload
 - [x] "taint" (server-only)
 - [x] use Next/Image component
-- [ ] Error management
+- [x] Error management
 - [ ] Routing/image page (parallel route)
 - [ ] Delete button (w/ Server Actions)
 - [ ] Analytics
