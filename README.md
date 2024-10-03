@@ -13,6 +13,7 @@
 - [x] use Next/Image component
 - [x] Error management
 - [x] Routing/image page (parallel route)
-- [ ] Delete button (w/ Server Actions)
+- [x] Delete button (w/ Server Actions)
+- [ ] ShaduiIfy
 - [ ] Analytics
 - [ ] Ratelimiting
