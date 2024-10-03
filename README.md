@@ -8,6 +8,7 @@
 - [x] Attach database to UI
 - [x] Add authentication
 - [ ] Add image upload
+- [ ] "taint" (server-only)
 - [ ] Error management
 - [ ] Routing/image page (parallel route)
 - [ ] Delete button (w/ Server Actions)
