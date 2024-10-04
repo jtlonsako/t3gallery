@@ -17,7 +17,7 @@ const useUploadThingInputProps = (...args: Input) => {
     const selectedFiles = Array.from(e.target.files);
     const result = await $ut.startUpload(selectedFiles);
 
-    console.log("uploaded files", result);
+    // console.log("uploaded files", result);
     // TODO: persist result in state maybe?
   };
 
@@ -66,6 +66,14 @@ export function SimpleUploadButton() {
                     id: "upload_begin"
                 }
             );
+        },
+
+        onUploadError(error) {
+            posthog.capture("upload_error", {error: error.message});
+            toast.dismiss("upload_begin");
+            toast.error("Upload failed", {
+                duration: 2000
+            })
         },
         onClientUploadComplete() {
             toast.dismiss("upload_begin");
