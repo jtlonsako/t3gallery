@@ -63,7 +63,7 @@ export function SimpleUploadButton() {
                     <LoadingSpinnerSVG /> <span className="text-lg ">Uploading...</span>
                 </div>, {
                     duration: 100000,
-                    id: "upload-begin"
+                    id: "upload_begin"
                 }
             );
         },

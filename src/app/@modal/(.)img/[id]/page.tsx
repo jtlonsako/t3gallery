@@ -6,13 +6,9 @@ export default async function PhotoModal({
 }: {
   params: { id: string };
 }) {
-  const idAsNumber = Number(photoId);
-  
-  if(isNaN(idAsNumber)) throw new Error("Invalid photo ID");
-
   return (
     <Modal>
-      <FullPageImageView id={idAsNumber} />
+      <FullPageImageView photoId={photoId} />
     </Modal>
-  )
+  );
 }
